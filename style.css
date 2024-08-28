@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Caveat", cursive;
+    /* font-size: 24px; */
+}
+
+body {
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255,255,255);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+    max-width: 500px;
+}
+
+.container h1 {
+    font-size: 50px;
+}
+
+.container p {
+    font-size: 24px;
+}
+
+.botones a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 25px;
+    background: black;
+    background-color: black;
+    border-radius: 8px;
+}
+
+
